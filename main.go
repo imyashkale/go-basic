@@ -1,6 +1,9 @@
 package main
 
-import Mux "gihub.com/imyashkale/go-basic/ServeMux"
+import (
+	router "gihub.com/imyashkale/go-basic/Router"
+	// Mux "gihub.com/imyashkale/go-basic/ServeMux"
+)
 
 func main() {
 
@@ -9,5 +12,6 @@ func main() {
 	// Start Custome Mx
 	// Mux.StartCustomMx()
 	// Multiple handlers => Multiple Routes
-	Mux.MultipleHandlers()
+	//Mux.MultipleHandlers()
+	router.HTTPRouter()
 }
