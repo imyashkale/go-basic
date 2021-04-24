@@ -13,5 +13,6 @@ func main() {
 	// Mux.StartCustomMx()
 	// Multiple handlers => Multiple Routes
 	//Mux.MultipleHandlers()
-	router.HTTPRouter()
+	// router.HTTPRouter()
+	router.FileServer()
 }
