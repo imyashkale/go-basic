@@ -5,7 +5,9 @@ import Mux "gihub.com/imyashkale/go-basic/ServeMux"
 func main() {
 
 	// ServeMux Example
-	Mux.StartServrMux()
+	// Mux.StartServrMux()
 	// Start Custome Mx
-	Mux.StartCustomMx()
+	// Mux.StartCustomMx()
+	// Multiple handlers => Multiple Routes
+	Mux.MultipleHandlers()
 }
