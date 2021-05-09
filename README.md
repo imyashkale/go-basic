@@ -2,6 +2,7 @@
 Routers , ServeMux and serving static files
 
 #### Custom `ServeMux` implementation
+NOTE : This example is from `Building Restful webservices with go Book`
 
 ```
 // Custome Mux
